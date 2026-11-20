@@ -6,13 +6,13 @@
 |---|---|---|
 | 1 | [Открыть раздел «Плагины»](https://chatgpt.com/plugins). Не закрывать разговор с помощником. | [Раздел плагинов](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/03-plugins-add-menu.png) |
 | 2 | Нажать сверху справа **«Добавить»**, затем **«Добавить пользовательский сервер MCP»**. Никаких проверок ранее установленных плагинов. | [Меню добавления](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/03-plugins-add-menu.png) |
-| 3 | Заполнить **Название: Далисман**, **Описание (необязательно): Аналитика салона красоты**, **URL: https://elklp.ru/api/mcp**, **Аутентификация: OAuth**. | [Поля подключения](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/04-server-form.png) |
-| 4 | Раскрыть **«Расширенные настройки OAuth»** и оставить **«Динамическая регистрация клиента (DCR)»**. Client ID и Client Secret оставить пустыми, если они показаны. | [Настройки DCR](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/05-oauth-dcr.png) |
-| 5 | Проверить URL, поставить галочку **«Я понимаю и хочу продолжить»** и нажать **«Создать в виде плагина»**. | [Кнопка создания](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/06-create-plugin.png) |
-| 6 | Нажать **«Подключить Далисман»**. | [Окно подключения](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/07-connect-dalisman.png) |
-| 7 | На сайте Далисмана отметить свою организацию в разделе **«Показатели бизнеса»**; для анализа источников при желании также во втором разделе. Нажать **«Разрешить чтение»**. | [Разрешения](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/08-consent.png) |
-| 8 | После установки нажать **«Попробовать сейчас»**, если кнопка появилась. Иначе **в рабочей вкладке** открыть новый чат и выбрать `@Далисман`. | [Поле запроса](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/10-first-prompt.png) |
-| 9 | Написать: **«Покажи, как прошла последняя неделя в моём салоне. Сравни с предыдущей и расскажи простыми словами»**. | [Пример отчёта](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/11-first-report.png) |
+| 3 | Вписать **Название: Далисман**, **URL-адрес сервера: https://elklp.ru/api/mcp**. Остальные поля не менять. Поставить галочку **«Я понимаю и хочу продолжить»** и нажать **«Создать в виде плагина»**. | [Форма подключения](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/06-create-plugin.png) |
+| 4 | Нажать **«Подключить Далисман»**. | [Окно подключения](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/07-connect-dalisman.png) |
+| 5 | На сайте Далисмана отметить свою организацию в разделе **«Показатели бизнеса»**; для анализа источников при желании также во втором разделе. Нажать **«Разрешить чтение»**. | [Разрешения](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/08-consent.png) |
+| 6 | После установки нажать **«Попробовать сейчас»**, если кнопка появилась. Иначе **в рабочей вкладке** открыть новый чат и выбрать `@Далисман`. | [Поле запроса](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/10-first-prompt.png) |
+| 7 | Написать: **«Покажи, как прошла последняя неделя в моём салоне. Сравни с предыдущей и расскажи простыми словами»**. | [Пример отчёта](https://raw.githubusercontent.com/Dmrs1977/dalisman-chatgpt-setup/main/screenshots/11-first-report.png) |
+
+В проверенном первичном подключении дополнительных настроек формы не потребовалось. Не упоминай OAuth, DCR, CIMD, Client ID или Client Secret, если экран работает штатно. Не проси заполнять необязательное описание.
 
 Если требуется вход на `elklp.ru`, предложи пройти его самостоятельно на странице сайта. Никогда не проси пароль или код в чате.
 
